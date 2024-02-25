@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>FOOD HUB</h1>
+            </div>
+            <div class="input">
+                <input type="text" value="" id="inp" placeholder="Search Here ..." onkeyup="myFun()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icon">
+                <i onclick="login()" class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i onclick="nav()" class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+
+        <div class="login">
+            <h2>Log In </h2>
+            <input type="text" placeholder="Enter Your Name">
+            <input type="password" placeholder="Enter Password"> <br>
+            <button>Log In</button>
+
+        </div>
+        <div class="nav">
+            <p>Home</p>
+            <p>Foods</p>
+            <p>Blog</p>
+            <p>Customer</p>
+
+
+        </div>
+
+        <!-- main Page -->
+
+        <div class="main">
+            <div class="text">
+                <h1>Simple & Tasty Recipes</h1>
+                <p>Welcome to delicious delight : Where every bite feels like HOME.We have something to satisfy and create memorable movement with your loved ones. Join us in creating delicious memories todayy!. </p>
+                <button>Explore More</button>
+            </div>
+            <img src="https://th.bing.com/th/id/OIP.S-7kwn5kP5HR5gdO7BmmtgHaE8?w=299&h=200&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="">
+        </div>
+
+        <!--  Card Food -->
+
+        <table>
+            <tr>
+                <td>
+                    <div class="head">
+                        <h1>Our <span>Foods</span></h1>
+                    </div>
+                    <div class="crd">
+                        <div class="card">
+                            <img src="https://th.bing.com/th/id/OIP.QqW-6CihcrBn5hGUCGI2EgHaHa?w=192&h=192&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="">
+                            <h2>299 Rupees Only</h2>
+                            <p>Simple Indian chicken curry made delicious, spicy and hot with minimum ingredients</p>
+                            <button>Order Now</button>
+                        </div>
+                        <div class="card">
+                            <img src="https://th.bing.com/th/id/OIP.tAgpJ8RFzKe0MoptZ0zYkAHaFj?w=151&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="">
+                            <h2>499 Rupees Only</h2>
+                            <p>Mutton curry is a dish of slow cooked mutton (goat or lamb) in a spicy gravy.</p>
+                            <button>Order Now</button>
+                        </div>
+                        <div class="card">
+                            <img src="https://th.bing.com/th/id/OIP.6NRJsoUCNE-944l0dJOrMgHaHa?w=193&h=189&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="">
+                            <h2>250 Rupees Only</h2>
+                            <p>Simple fish curry made in Indian style. Mildly spicy, flavorful and delicious tasting fish curry.</p>
+                            <button>Order Now</button>
+                        </div>
+                    </div>
+
+                    <div class="crd">
+                        <div class="card">
+                            <img src="https://th.bing.com/th/id/OIP.B03ybw_c1H1lgjJMWDwKlAHaLG?w=115&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="">
+                            <h2>120 Rupees Only</h2>
+                            <p>Egg curry is a popular side dish made with boiled eggs cooked in onion tomato gravy.</p>
+                            <button>Order Now</button>
+                        </div>
+                        <div class="card">
+                            <img src="https://th.bing.com/th/id/OIP.i1keRT3dOow7NVG3LD6qigHaLG?w=129&h=194&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="">
+                            <h2>150 Rupees Only</h2>
+                            <p>Biryani is a mixed rice dish most popular in South Asia. It is made with rice, some type of meat (chicken, beef, goat, lamb, prawn, or fish) and spices.</p>
+                            <button>Order Now</button>
+                        </div>
+                        <div class="card">
+                            <img src="https://th.bing.com/th/id/OIP.mfHyg8TKikhY37y8zk7TqwHaHa?w=188&h=187&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="">
+                            <h2>250 Rupees Only</h2>
+                            <p>Chicken fried chicken is a dish that starts with a boneless, skinless chicken breast. The chicken breast is pounded to an even thickness, dredged in seasoned flour, and then fried until golden brown and crispy. The result is a piece of chicken that is reminiscent of fried chicken, but with a thinner profile and a delightfully crunchy exterior.</p>
+                            <button>Order Now</button>
+                        </div>
+                    </div>
+                </td>
+
+
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="head">
+                        <h1>Our <span>Blogs</span></h1>
+                    </div>
+                    <div class="crd">
+                        <div class="blog">
+                            <img src="https://th.bing.com/th/id/OIP.c0Zm99FVYg1KUhx94BpgqgHaFj?w=269&h=202&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="">
+                            <h2>Fact About Indian Food</h2>
+                            <p>all Indian food is made up of six primary tastes or rasas – sweet (madhura), salty (lavana), sour (amala), pungent (katu), bitter (tikta) and astringent (kasya).</p>
+                            <a href="https://www.littleindiaofdenver.com/blog/7-facts-you-never-knew-about-indian-food/">Read More</a>
+                        </div>
+                        <div class="blog">
+                            <img src="https://th.bing.com/th/id/OIP.DqXw940ogHPSylxZeNZBPAHaHa?w=204&h=204&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="">
+                            <h2>Diffrent Type of Burger</h2>
+                            <p>50 Types of Burger Ahi Tuna Burger (2000s). 2]. Aussie Burger (1970s).</p>
+                            <a href="https://www.finedininglovers.com/article/burger-types-famous-to-make">Read More</a>
+                        </div>
+                        <div class="blog">
+                            <img src="https://th.bing.com/th/id/OIP.b8pEkjanENOFvaaZ4Ds8hAHaE8?w=256&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="">
+                            <h2>Sweet and Spicy Indian Food</h2>
+                            <p>This list includes some easy Indian sweets and desserts. I’ve also included some of the most popular Indian desserts such as, gajar ka halwa , jalebi and kaju katli.</p>
+                            <a href="https://themodernproper.com/60-best-chicken-breast-recipes">Read More</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        
+            
+        </div>
+        <div class="footer">
+            <div class="txt">
+                <h2>About US</h2>
+                <p>Welcoe To Delightful Eats ! Discover diverse Recipes <br>, expert tips , and food culture exploration</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+            <div class="txt">
+                <h2>About US</h2>
+                <p>Product</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+            <div class="txt">
+                <h2>About US</h2>
+                <p>Near</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+            <div class="txt">
+                <h2>About US</h2>
+                <p>Websites</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
